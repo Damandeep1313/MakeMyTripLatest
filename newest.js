@@ -92,7 +92,7 @@ app.get('/scrape', async (req, res) => {
 
     // 1) Navigate to MMT Delhi hotels page
     console.log("Navigating to MMT Delhi hotels...");
-    await driver.get("https://www.makemytrip.com/hotels-international/india/delhi-hotels/");
+    await driver.get("https://www.makemytrip.com/hotels-international/united_arab_emirates/abu_dhabi-hotels/");
     await driver.wait(until.elementLocated(By.css('body')), 60000);
     console.log("Main listing page loaded.");
 
